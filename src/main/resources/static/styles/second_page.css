@@ -1,0 +1,48 @@
+html,
+body{
+    padding: 0;
+    margin: 0;
+    height: 900px;
+    font-family: 'Hind', sans-serif;
+    background-image: url(../Image/Steamlogoandbackgroundofgames.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.steam-guard{
+    background: #0E141B;
+    width: 700px;
+    height: 368px;
+    text-align: center;
+    margin: 250px auto auto;
+
+}
+.form-field-guard{
+    background: #3D4450;
+    text-align: left;
+    width: 469px;
+    height: 231px;
+    margin: 69px auto;
+}
+.form-label-guard{
+    color: #afafaf;
+    text-align: center;
+    font-family: 'Motiva Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 250;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+.form-input-guard{
+    background: #3D4450;
+    width: 338px;
+    height: 75px;
+}
+.steam-guard-acc{
+    color: #AFAFAF;
+    text-align: center;
+    font-family: Inter, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

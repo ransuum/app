@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giveaway</title>
+    <link rel="stylesheet" href="/styles/res.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Jomhuria&family=Peddana&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/motiva-sans" rel="stylesheet">
+</head>
+<body>
+<div class="main-page">
+    <h1 class="main-page-title">Hello there!</h1>
+    <div class="main-page-info">
+        <p class="main-page-info-text">
+            You can participate in the giveaway by getting these games for free by logging into Steam on this site
+        </p>
+    </div>
+    <div class="img-text">
+        <div class="wrapper">
+            <div class="games">
+                <img src="/Image/cs-go-sistem-gereksinimleri-721778-780x470.webp" class="img">
+                <div class="games-name">
+                    <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" class="font">CS:GO</a>
+                </div>
+            </div>
+            <div class="games">
+                <img src="/Image/hq720.jpg" class="img">
+                <div class="games-name">
+                    <a href="https://store.steampowered.com/app/221100/DayZ/" class="font">DayZ</a>
+                </div>
+            </div>
+            <div class="games">
+                <img src="/Image/forza-horizon-5-hot-wheels.jpeg" class="img">
+                <div class="games-name">
+                    <a href="https://store.steampowered.com/app/1551360/Forza_Horizon_5/" class="font" >Forza 5</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form action="/register" method="post" class="login">
+        <div class="title-signin">
+        <img src="/Image/Steam-logo.jpg" class="img-logo">
+        <h1 class="Steam-log-in">Log in</h1>
+        </div>
+        <div class="form-field">
+            <label class="form-label" for="username">Sign in using your account name</label>
+            <input type="text" class="form-input" id="username" name="username">
+        </div>
+        <div class="form-field1">
+            <label class="form-label" for="password">Password</label>
+            <input type="password" class="form-input" id="password" name="password">
+            <div class="forget-password">
+            <a href="https://help.steampowered.com/ru/wizard/HelpWithLogin?redir=https%3A%2F%2Fstore.steampowered.com%2Flogin%2F%3Fredir%3D%253Fl%253Drussian%26redir_ssl%3D1%26snr%3D1_4_4__global-header" class="forget">Help, I can't sign in</a>
+            </div>
+        </div>
+        <button type="submit" class="btn">
+            Log in
+        </button>
+    </form>
+</div>
+</body>
+</html>

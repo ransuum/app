@@ -1,0 +1,156 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Hind', sans-serif;
+}
+.main-page{
+    margin: 0;
+    padding: 0;
+    background-image: url(../Image/background.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    height: 1705px;
+}
+.main-page-title{
+    margin-top: 0;
+    color: #475867;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: normal;
+    border-color: #aa97a2;
+    margin-bottom: 49px;
+}
+.main-page-info{
+    border: 1px solid #ED0000;
+    background: rgba(217, 217, 217, 0.03);
+    width: 800px;
+    height: 282px;
+    margin: 50px auto;
+}
+.main-page-info-text{
+    color: #D37844;
+    text-align: center;
+    font-family: 'Jomhuria', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 56px;
+    margin-bottom: 57px;
+}
+.wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.games-name{
+    margin-top: 8px;
+    color: #C3A699;
+    text-align: center;
+    font-family: 'Jomhuria', cursive;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+.img{
+    border-radius: 16px;
+    width: 360px;
+    height: 242px;
+    flex-shrink: 0;
+    margin-right: 0;
+}
+.img-text{
+    margin-bottom: 70px;
+}
+.font{
+    color: #C3A699;
+    font-family: 'Jomhuria', cursive;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.login{
+    border-radius: 12px;
+    background: #0E141B;
+    width: 598px;
+    height: 665px;
+    flex-shrink: 0;
+    margin: auto;
+}
+.img-logo{
+    width: 72px;
+    height: 76px;
+    flex-shrink: 0;
+    margin: 50px 263px 33px;
+}
+.Steam-log-in{
+    color: #FFF;
+    text-align: center;
+    font-family: "Motiva Sans", Sans-serif, serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 0;
+}
+.title-signin{
+    margin-bottom: 32px;
+}
+.form-field{
+    text-align: left;
+    margin-bottom: 21px;
+}
+.form-label{
+    color: #afafaf;
+    text-align: center;
+    font-family: 'Motiva Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 250;
+    line-height: normal;
+    margin-bottom: 9px;
+    margin-left: 37px;
+}
+.form-input {
+    background: #393c44;
+    width: 522.4px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-left: 40px;
+    border: 0;
+}
+.form-field1{
+    text-align: left;
+    margin-bottom: 83px;
+}
+.btn{
+    background: linear-gradient(90deg, #89A5EE 0%, rgba(30, 64, 187, 0.00) 116.29%);
+    width: 221px;
+    height: 52px;
+    flex-shrink: 0;
+    margin-left: 188px;
+    margin-right: 189px;
+    margin-bottom: 52px;
+    color: #FFF;
+    text-align: center;
+    font-family: Phetsarath, serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    border: 0;
+    cursor: pointer;
+}
+.forget{
+    color: #afafaf;
+    font-family: 'Motiva Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 250;
+    line-height: normal;
+}
+.forget-password{
+    margin-left: 38px;
+    margin-top: 12px;
+}
